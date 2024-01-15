@@ -1,0 +1,4 @@
+Predicted class: Normal
+Confidence: 71.91%
+Predicted class: Normal
+Confidence: 71.91%
