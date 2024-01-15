@@ -1,0 +1,6 @@
+streamlit 
+ultralytics
+PIL
+scipy.io
+os
+librosa
