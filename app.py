@@ -7,6 +7,10 @@ from scipy.io import wavfile
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
+st.set_page_config(
+  page_title="My YOLO App",
+  page_icon="🚀"
+)
     # Remove whitespace from the top of the page and sidebar
 st.markdown("""
     <style>
