@@ -4,8 +4,7 @@ from ultralytics import YOLO
 from PIL import Image
 import os
 from scipy.io import wavfile
-import librosa
-import librosa.display
+
 import matplotlib.pyplot as plt
 st.set_page_config(
   page_title="My YOLO App",
