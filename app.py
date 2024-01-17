@@ -13,38 +13,39 @@ st.set_page_config(
     # Remove whitespace from the top of the page and sidebar
 st.markdown("""
     <style>
+        body {
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
         .reportview-container {
             background-color: pink;
         }
         .block-container {
-            padding-top: 0rem;
+            padding-top: 2rem;
             padding-bottom: 0rem; 
-            padding-left: 0rem; 
-            padding-right: 0rem;
         }
-
         .st-emotion-cache-ocqkz7 {
             display: flex;
             flex-wrap: wrap;
-            gap: 1.5rem; /* Increase the gap between columns */
+            gap: 1.5rem;
         }
-
         .stApp {
             margin-left: 0;
         }
-
         .column {
             flex: 1;
-            margin: 0.5rem; /* Increase the margin for each column */
+            margin: 0.5rem;
         }
-
         .column img {
             width: 100%;
             height: auto;
         }
-       
+        .title {
+            padding-top: 4rem; /* Add margin to the top of the title */
+        }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 st.title('**Heart Sound Classifier**')
@@ -61,14 +62,14 @@ with col1:
     """
     <div style="margin-top: 0rem;">
         <h3>Introduction</h3>
-        <p style="margin-top:-1rem;">Welcome! to the Heartbeat Sound Classification App . This application is designed to classify heartbeat sounds as Normal/Abnormal</p>
+        <p style="margin-top:-1rem;">Welcome! to the Heartbeat Sound Classification App . This application is designed to classify heartbeat sounds as Normal/Abnormal with an accuracy of 94.6% </p>
     </div>
     """, 
     unsafe_allow_html=True
 )
     st.markdown(
     """
-    <div style="margin-top: -2rem;">
+    <div style="margin-top: -1rem;">
         <h4>How to Use:</h4>
         <p style="margin-top:-1rem;">1. Upload a WAV audio file using the file uploader below.</p>
         <p style="margin-top:-1rem;">2. Click the 'Predict' button to analyze the uploaded audio.</p>
