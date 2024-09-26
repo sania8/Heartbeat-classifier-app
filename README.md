@@ -20,3 +20,4 @@ The link to dataset is here: https://archive.physionet.org/physiobank/database/c
 Click on the following link to download your files.
 
 🌟 Feel free to use the Heartbeat Sound Classification App to classify heartbeat sounds with high accuracy! If you have any feedback or questions, don't hesitate to reach out. Happy classifying! ❤️🎶
+feel free to reach out in case of any queries : saniav2711@gmail.com
