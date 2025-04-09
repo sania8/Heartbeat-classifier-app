@@ -3,7 +3,7 @@
 🔊 Welcome to the Heartbeat Sound Classification App! This deep learning model, based on YOLOv8, is designed to classify audio files in .wav format into normal heartbeat sounds or abnormal heartbeat sounds.
 
 ## App Link
-🔗 [Heartbeat Sound Classification App](https://sania8-heartbeat-app-main-i85gog.streamlit.app/)
+🔗 [Heartbeat Sound Classification App]((https://heartsoundclassification.streamlit.app/))
 
 ## Model Accuracy Metrics
 
